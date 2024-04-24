@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "f005f71a223747f9ed58bd6e0964fba6",
+    "content-hash": "cf9981a51c7e8d3beaecae57dfac94ed",
     "packages": [
         {
             "name": "contao/idna",
@@ -38,7 +38,7 @@
                 }
             ],
             "description": "A library for encoding and decoding internationalized domain names.",
-            "time": "2014-05-17 19:04:55"
+            "time": "2014-05-17T19:04:55+00:00"
         },
         {
             "name": "contao/php-diff",
@@ -71,7 +71,7 @@
                 }
             ],
             "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
-            "time": "2014-10-21 12:48:52"
+            "time": "2014-10-21T12:48:52+00:00"
         },
         {
             "name": "leafo/lessphp",
@@ -112,7 +112,7 @@
             ],
             "description": "lessphp is a compiler for LESS written in PHP.",
             "homepage": "http://leafo.net/lessphp/",
-            "time": "2013-08-09 17:09:19"
+            "time": "2013-08-09T17:09:19+00:00"
         },
         {
             "name": "leafo/scssphp",
@@ -167,7 +167,7 @@
                 "scss",
                 "stylesheet"
             ],
-            "time": "2014-10-30 12:51:26"
+            "time": "2014-10-30T12:51:26+00:00"
         },
         {
             "name": "leafo/scssphp-compass",
@@ -202,7 +202,7 @@
             ],
             "description": "Compass for scssphp",
             "homepage": "http://leafo.net/scssphp/",
-            "time": "2012-08-02 02:04:32"
+            "time": "2012-08-02T02:04:32+00:00"
         },
         {
             "name": "michelf/php-markdown",
@@ -253,7 +253,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2014-05-05 02:43:50"
+            "time": "2014-05-05T02:43:50+00:00"
         },
         {
             "name": "simplepie/simplepie",
@@ -307,32 +307,33 @@
                 "feeds",
                 "rss"
             ],
-            "time": "2012-10-30 17:54:03"
+            "time": "2012-10-30T17:54:03+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.3.0",
+            "version": "v5.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "b86b927dfefdb56ab0b22d1350033d9a38e9f205"
+                "reference": "181b89f18a90f8925ef805f950d47a7190e9b950"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/b86b927dfefdb56ab0b22d1350033d9a38e9f205",
-                "reference": "b86b927dfefdb56ab0b22d1350033d9a38e9f205",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/181b89f18a90f8925ef805f950d47a7190e9b950",
+                "reference": "181b89f18a90f8925ef805f950d47a7190e9b950",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "~0.9.1"
+                "mockery/mockery": "~0.9.1",
+                "symfony/phpunit-bridge": "~3.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.3-dev"
+                    "dev-master": "5.4-dev"
                 }
             },
             "autoload": {
@@ -354,12 +355,18 @@
                 }
             ],
             "description": "Swiftmailer, free feature-rich PHP mailer",
-            "homepage": "http://swiftmailer.org",
+            "homepage": "https://swiftmailer.symfony.com",
             "keywords": [
+                "email",
                 "mail",
                 "mailer"
             ],
-            "time": "2014-10-04 05:53:18"
+            "support": {
+                "issues": "https://github.com/swiftmailer/swiftmailer/issues",
+                "source": "https://github.com/swiftmailer/swiftmailer/tree/v5.4.12"
+            },
+            "abandoned": "symfony/mailer",
+            "time": "2018-07-31T09:26:32+00:00"
         },
         {
             "name": "tecnick.com/tcpdf",
@@ -422,7 +429,7 @@
                 "pdf417",
                 "qrcode"
             ],
-            "time": "2014-10-20 20:02:38"
+            "time": "2014-10-20T20:02:38+00:00"
         }
     ],
     "packages-dev": [],
@@ -435,8 +442,10 @@
         "leafo/scssphp-compass": 20
     },
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.2"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
